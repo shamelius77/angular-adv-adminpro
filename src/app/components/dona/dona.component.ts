@@ -17,7 +17,7 @@ export class DonaComponent  {
     [350, 450, 100]
   ];
 
-  public colors:Color[]= [
+ @Input('colors') colores:Color[]= [
     { backgroundColor: [ '#808E0A' , '#0EE1AB', '#640A8E' ] }
 
   ]
